@@ -84,11 +84,11 @@ spec:
         resolver: git
         params:
           - name: url
-            value: https://github.com/krkn-chaos/konflux-chaos.git
+            value: https://github.com/yogananth-subramanian/konflux-chaos.git
           - name: revision
             value: main
           - name: pathInRepo
-            value: task/task-run-app.yaml                         
+            value: task/task-run-python-app.yaml                         
     - name: run-krkn
       runAfter:
         - deploy-app-krkn
